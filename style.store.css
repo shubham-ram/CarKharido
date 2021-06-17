@@ -1,0 +1,78 @@
+body{
+    background-color: rgba(0, 0, 0, 0.041) !important;
+}
+.store-top{
+    margin-top: 80px;
+    text-align: center;
+    width:100%;
+    height:20rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url(gen/Showroom.jpg);
+}
+.store-top h1{
+    color: white;
+    font-size: 5rem;
+    padding-top: 6rem;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.title{
+    color: white;
+    padding-left: 4.3rem;
+    text-transform: uppercase;
+}
+.title h1{
+    font-weight: 100;
+    margin-bottom: 0 !important;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.product{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.product-card{
+    margin:0 1.1rem 2rem;
+    border-radius: 10px !important;
+    border-width: 2px !important;
+    
+}
+.product-body{
+    padding: 1rem 2.6rem 1.8rem!important;
+}
+.product-head{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-img img{
+    width: 24rem;
+    /* margin: 2rem auto; */
+    display: block;
+    padding: 1rem;
+}
+
+.product-desc{
+    justify-content: space-between;
+}
+.product-desc p{
+    margin: 0.7rem 0 !important
+}
+.price{
+    font-size: 1.15rem;
+}
+.buy{
+    width:100%;
+}
+
+.bestDeal div.product{
+    justify-content: space-around !important;
+}
+
+.bestDeal{
+    background-color: rgb(248, 213, 213);
+
+}

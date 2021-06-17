@@ -1,0 +1,460 @@
+*{
+    margin: 0; padding:0;
+    list-style: none;
+    text-decoration: none !important;
+}
+
+hr{
+    height: 0 !important;
+    width: 80px;
+    border-style: dotted none none none !important;
+    border-width: 10px !important;
+    border-color: grey !important;
+    margin: 100px auto !important;
+    background-color: transparent !important;
+    opacity: 0.7 !important;
+}
+
+nav{
+    height: 80px; width: 100%;
+    background-image: linear-gradient(45deg, #141E30, #243B55);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color:#fff;
+}
+div img.car{
+    width:110px;
+}
+.name{
+    width: 235px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo span{
+    color: #db1f35;
+    font-weight: 700;
+}
+.logo{
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0 !important;
+}
+nav ul{
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 55%;
+    padding:0 12px;
+    text-transform: uppercase;
+    margin: 0 !important;
+}
+nav ul li {
+    font-size: 20px; padding:0 13px;
+}
+nav ul li a{
+    color: #fff !important;}
+
+nav ul li a:hover{
+    color: #ffa500 !important;
+}
+.icon, .dropdown{
+    display: none;
+}
+
+.main{
+    margin-top: 80px;
+    width: 100%;
+    height: 641px;
+}
+.car-ig{
+    height: 641px !important;
+}
+
+.caption{
+    position: absolute;
+    top: 4rem ;
+    width: 40rem;
+    left: 10% ;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: left ;
+}
+.caption h3{ font-size: 3.3rem;}
+.caption p{
+    padding-top:10px;
+}
+.caption button{
+    width: 8.12rem; height: 3rem;
+}
+.bmw-caption{
+    left: 18% !important;
+}
+.audi-caption{
+    top:3.5rem;
+}
+.audi-caption h3 span{
+    background-color: #00416A;
+    color: #fff;
+    padding: 0.3rem 1.7rem;
+}
+.audi-caption h3{
+    line-height: 5.5rem;
+}
+
+.best-deals{
+    margin:5rem 0;
+    text-align: center;
+    padding: 60px 0 ;
+    background-color: rgb(248, 213, 213);
+}
+.best-deals h1{
+    font-size: 3.7rem;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+.product{
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+.card{
+    border-radius: 20px !important;
+}
+.product .card:hover{
+    box-shadow: 4px 9px 20px #8f8181;
+}
+.card .s{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.cta{
+    margin: 0.5rem;
+    padding: 20px 17px 5px;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid black;
+}
+#brand{
+    background-color: #e6e6e6;
+}
+.brand{
+    display: block;
+    padding: 40px;
+    width:80%;
+    margin: auto;
+}
+.brand h1{
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    word-spacing: 1rem;
+}
+.brand-logo{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+.brand-logo div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    height: 150px;width:150px;
+    padding: 10px;
+    background-color: #fff;
+    border:2px solid rgb(121, 121, 121);
+}
+.brand-logo div img{
+    display: block;
+    margin: auto;
+    width: 50%;
+    width:80px
+}
+.more{
+    margin: 2.7rem !important;
+    height: 70px !important;
+    width: 90px !important;
+    border:none !important;
+    background-color: white;
+    border-radius: 50px;
+    
+}
+.more a{
+    font-size: 1.5rem;color: black;
+    text-decoration: none !important;
+}
+
+.about{
+    text-align: center;
+    background-color: thistle;
+}
+.about div{
+    padding: 0 10rem !important;
+}
+.about div h1{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+.about div p{
+    font-size: 1.1rem;
+    color: #595959;
+}
+
+.footer{
+    color:#fff;
+    background-color: #111;
+    margin-top:7rem;
+    padding: 2rem 3rem 1rem;
+}
+.footer-name{
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 3.5rem;
+}
+.footer-name h1 {
+    font-size: 45px;
+}
+.footer-detail{
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 28px auto 50px;
+    padding: 0 8px;
+    width: 85%;
+
+}
+.footer-detail div{
+    width:325px;
+    height: 140px;
+    text-align: center;
+}
+.connect i,.mobile-apps img{
+    margin: 10px;
+    cursor: pointer;
+}
+.connect {
+    border-right: 2px solid #fff !important;
+    border-left: 2px solid #fff !important;
+    width:370px;
+}
+.connect i:hover{
+    font-size: 3rem;
+}
+.copyright{
+    margin-top: 2rem;
+    border-top: 2px solid #fff;
+    text-align: center;
+}
+.copyright p{
+    margin: 1rem;
+}
+@media screen and (max-width:980px){
+    .main{
+        height: 500px;
+    }
+    hr{
+        margin: 80px auto !important;
+        width:55px;
+        border-width: 8px !important;
+    }
+    div h1.logo{
+        font-size: 33px;
+    }
+    nav ul li{
+        font-size: 1.1rem;
+    }
+
+    .caption{
+        top:2rem;
+        width: 25rem;
+    }
+    .caption h3{ font-size: 2rem;}
+    .caption p{
+        font-size: 0.9rem;
+    }
+    .bmw-caption{
+        bottom:0 !important;
+    }
+    .audi-caption h3{
+        line-height: 3.5rem;
+    }
+
+}
+@media screen and (max-width:850px) {
+    .main{
+        height: 250px;
+    }
+
+    div.name{ 
+        padding-left: 40px !important;
+        width:220px
+    }
+    div img.car{
+        width:100px;
+    }
+    div h1.logo{
+        font-size: 30px;
+    }
+    ul.ul{
+        display: none !important;
+    }
+    .icon{
+        display:block;
+        padding-right: 30px;
+    }
+    .dropdown{
+        display: block;
+        background-color: rgb(97, 97, 97);
+        height: 0rem;
+        font-size: 33px;
+        text-align: center;
+        line-height: 6rem;
+        color: #fff;
+        z-index: 999;
+        box-shadow: 0px 7px 10px #000;
+        /* animation: dropmenu 1s cubic-bezier(0.75, 0.27, 0.15, 0.99); */
+    }
+
+    .drop-items li a{
+        color: #fff;
+        padding: 1rem 12rem;
+    }
+    .drop-items li a:hover{
+        color: #ffa500;
+    }
+    @keyframes dropmenu {
+        0%{
+            height:0;
+        }
+        100%{
+            height:31rem;
+        }
+    }
+    @keyframes dropmenuR {
+        0%{
+            height:31rem;
+        }
+        100%{
+            height:0;
+        }
+    }
+    .drop-items{
+        padding: 0 !important;
+    }
+    .drop-items {
+        visibility: hidden;
+        /* animation: droptext 0.5s linear 0.5s ; */
+    }
+    @keyframes droptext{
+        0%{
+            visibility: visible;
+            opacity: 0.2;
+        }
+        100%{
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+    @keyframes droptextR{
+        0%{
+            visibility: visible;
+            opacity: 1;
+        }
+        100%{
+            visibility: hidden;
+            opacity: 0;
+        }
+    }
+    .drop-items li:hover{
+        color: black; 
+        box-shadow: 5px 5px 50px rgb(0, 0, 0);
+    }
+
+    .caption{
+        top:1.2rem;
+        width: 15rem;
+        left:12%
+    }
+  
+    .caption h3{ font-size: 1.3rem;}
+    .caption p{
+        font-size: 0.7rem;
+    }
+    .caption button{
+        margin-top: 1rem !important;
+        width: 6.12rem; height: 2rem;
+        font-size: 0.8rem;
+    }
+    .bmw-caption{
+        bottom:0 !important;
+    }
+    .bmw-caption h3{
+        font-size: 1rem;margin-bottom: 0;
+    }
+    .bmw-caption p{
+        font-size: 0.8rem;
+    }
+    .audi-caption h3{
+        line-height: 2.5rem;
+    }
+    .audi-caption h3 span{
+        padding: 0.2rem 0.8rem;
+    }
+    .audi-caption button{
+        margin-top: 2rem !important;
+    }
+    hr{
+        margin: 80px auto !important;
+        width:55px;
+        border-width: 8px !important;
+    }
+
+    .product{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        width:22rem !important;
+    }
+    .cta a img{
+        width:50px;
+    }
+    .best-deals h1, .brand h1{
+        font-size: 3rem;
+    } 
+
+    .brand-logo{
+        flex-direction: column;
+    }
+
+    .about div {
+        padding: 0px 2rem !important;
+    }
+
+    #about .container h1{
+        font-size: 2.5rem !important;
+    } 
+
+    .footer-detail{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+    }
+
+    .connect {
+        margin: 2rem 0;
+        padding-top:1.5rem ;
+        border-top: 2px solid #fff !important;
+        border-bottom: 2px solid #fff !important;
+        border-right-width: 0 !important;
+        border-left-width: 0 !important; }
+}

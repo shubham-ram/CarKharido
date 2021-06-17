@@ -1,0 +1,100 @@
+body{
+    background-color: whitesmoke;
+}
+.contact{
+    margin-bottom: 100px;
+    margin-top: 80px !important;
+    padding: 40px 120px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #fff;
+    background-image: linear-gradient(132deg, #141E30, #243B55, #435e7d);  
+}
+
+.contact-content{
+    padding-right: 50px; 
+    padding-top: 90px;
+    flex: 2;
+}
+
+.contact-content h1{
+    font-family:  Helvetica, sans-serif;
+    font-size: 50px;
+}
+.contact-content p {
+    font-size: 19px;
+    margin: 40px 0;
+    line-height: 26px; 
+}
+.contact-content button{
+    width: 160px; height: 50px;
+    padding: 10px; margin: 20px 0;
+    border: 2px solid whitesmoke;
+    background: transparent;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.contact-content button a{
+    text-decoration: none;
+    color: #fff; letter-spacing: 1px;
+    padding: 15px 15px;
+
+}
+.contact-content button:hover{
+    background: #2cb148;
+    border-color: #218838;
+}
+
+.contact-img{flex: 1; 
+}
+.contact-info{
+    background-color: #F8F9FA;
+}
+.contact-info h1{
+    margin: 1rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+.container{
+    justify-content: space-around;
+    margin:0 15px;
+    max-width: 1140px !important;
+}
+.container div{
+    padding: 1rem;
+    width:20rem;
+}
+.info h3{
+    font-weight: 700;
+    font-size: 1.55rem;
+}
+.info p{
+    font-size: 1.05rem;
+    color: #868e96;
+}
+.info-1, .info-2{
+    border-right: 2px dashed grey;
+}
+@media screen and (max-width:850px) {
+    .contact{
+        flex-direction: column-reverse;
+        padding: 40px;
+    }
+
+    .contact-content {
+        padding-right: 0px;
+        padding-top: 41px;
+        flex: 2;
+        text-align: center;
+    }
+    .contact-img img{
+        display: block;
+        margin: auto;
+        width: 250px;
+    }
+}
